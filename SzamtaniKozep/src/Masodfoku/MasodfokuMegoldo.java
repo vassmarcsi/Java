@@ -11,7 +11,7 @@ public class MasodfokuMegoldo {
 		// TODO Auto-generated method stub
 
 		if (args.length != 3)
-			System.out.println("Nem 3 számot adott meg.");
+			System.err.println("Nem 3 számot adott meg.");
 		else {
 			int a = Integer.parseInt(args[0]);
 			int b = Integer.parseInt(args[1]);
